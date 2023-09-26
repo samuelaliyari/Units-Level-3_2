@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: Roboto_BL;
+    src: url(../font/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto_M;
+    src: url(../font/Roboto-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+main {
+    background: url(../img/BG.jpg) center / cover no-repeat;
+    height: 100vh;
+    text-align: center;
+    padding: 20%;
+}
+
+h1 {
+
+    font-family: Roboto_BL;
+    font-size: 7rem;
+    color: rgba(0, 0, 0, 0.871);
+    text-shadow: 0 0 0.3rem rgb(0, 247, 255);
+}
+
+h2 {
+    font-family: Roboto_M;
+    color: rgb(21, 199, 226);
+    text-shadow: 0 0 2px black;
+}
